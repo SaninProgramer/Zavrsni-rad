@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+    background-color: #ffe500;
+    filter: saturate(270%);
+    filter: contrast(120%);
+}
+
+
+p {
+  text-align: justify;
+}
+
+.containerm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}  
+  
+h1 {
+  font-size: 70px; 
+  margin: 0; 
+}
+
+.logo {
+  width: 100px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.firstpg {
+  background-color: black;
+  padding: 20px 0; 
+  
+}
+
+#firsth1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.statua {
+  background-color: black;
+  display: flex;    
+  justify-content: center;
+  padding: 20px;
+}
+
+.secondpg {
+  padding: 20px 0;
+}
+
+#secondh1 {
+  font-size: 40px;
+  font-family:"Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.thirdpg {
+  background-color: black;
+  padding: 20px 0;
+}
+
+#thirdh1 {
+  font-size: 40px;
+  color: white;
+  font-family:"Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fourthpg {
+  background-color: black;
+  padding: 20px 0;
+}
+
+#fourthh1 {
+  color: white;
+  font-size: 40px;
+  font-family:"Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+
+#botanicki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botanickipg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 80px;
+}
+
+.fifthpg {
+  background-color: black;
+  padding: 20px 0;
+}
+
+#fifthh1 {
+  font-size: 40px;
+  color: white;
+  font-family:"Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sixthpg {
+  padding: 20px 0;
+}
+
+#sixthh1 {
+  font-size: 40px;
+  font-family:"Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+
+.seventhpg {
+  background-color: black;
+  padding: 20px 0;
+}
+
+#seventhh1 {
+  font-size: 40px;
+  color: white;
+  font-family:"Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#kalcitnaziv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.kalcittekst {
+  overflow: hidden;
+  text-align: center;
+}
+
+.kalcit {
+  text-align: center;
+  
+}
+
+.biblioteka {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.spomenik {
+  background-color: black;
+  padding: 20px 0;
+}
+
+#spomenikh1 {
+  font-size: 40px;
+  color: white;
+  font-family:"Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.spomenikjpg {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 30px;
+}
+
+#prahistorijah1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prahistorijapg {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+#zbirkah1 {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.posuda {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 30px;
+}
+
+.antikapg {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+#antikah1 {
+  color: white;
+}
+
+#antikah1z {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rimskasvjetiljka {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 30px;
+}
+
+.srednjivijekpg {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+#srednjivijekh1 {
+  color: white;
+}
+
+.stecak {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 30px;
+}
+
+.arheologijapg {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+#arheologijah1 {
+  color: white;
+}
+
+#odjelarheologijah1 {
+  font-size: 40px;
+  font-family:"Montserrat", sans-serif;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;  stavljati na 100vh pomjeri dole i ne izgleda isto ko na drugima, pa je ugaseno.*/
+  margin: 5px;
+}
+
+
+.zlatniprsten {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: -5px;
+}
+
+#zlatniprstenh1 {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.etnologijapg {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+#odjeletnologijah1 {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.makaze {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: -5px;
+}
+
+#makazeh1 {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
